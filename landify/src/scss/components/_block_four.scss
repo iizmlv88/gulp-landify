@@ -1,0 +1,370 @@
+.block_four_wrapper {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1396px;
+    background: #D5FAFC;
+
+}
+
+.container_block_four {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: var(--container-1440);
+    gap: 24px;
+}
+
+.left {
+    width: 100%;
+    max-width: 1216px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+
+}
+
+.hubspot,
+.strapi,
+.airbnb {}
+
+.real_wrapper {
+    height: 144px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url("../../img/block_four/qm.svg");
+    background-repeat: no-repeat;
+    background-position: 5% 15%;
+    background-size: 96px 78px;
+
+}
+
+.real {
+    width: 90%;
+    max-width: var(--container-1216);
+    display: flex;
+    flex-direction: column;
+}
+
+.real>div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.real>div :nth-child(1) {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: var(--text-big-block-two);
+}
+
+.real>div :nth-child(2) {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--text-big-block-two);
+}
+
+.chort_nogy_zlamae {
+    width: 80%;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+    gap: 32px;
+    box-shadow: 0px 4px 8px -2px rgba(17, 24, 39, 0.1), 0px 2px 4px -2px rgba(17, 24, 39, 0.06);
+    border-radius: 8px;
+}
+
+.chort_nogy_zlamae :nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.chort_nogy_zlamae :nth-child(2) :nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    font-feature-settings: 'liga' off;
+    color: #111827;
+}
+
+.chort_nogy_zlamae :nth-child(2) :nth-child(2) :nth-child(2) {
+    gap: 0;
+}
+
+.chort_nogy_zlamae :nth-child(2) :nth-child(2) :nth-child(2) :nth-child(1) {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    font-feature-settings: 'liga' off;
+    color: #111827;
+}
+
+.chort_nogy_zlamae :nth-child(2) :nth-child(2) :nth-child(2) :nth-child(2) {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    font-feature-settings: 'liga' off;
+    color: #6B7280;
+}
+
+.right {
+    max-width: var(--container-1216);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+@media screen and (min-width: 768px) {
+
+    .block_four_wrapper {
+        height: 1165px;
+        padding: 40px 0 40px 0;
+    }
+
+    .container_block_four {
+        height: 100%;
+    }
+
+    .left {
+        gap: 40px;
+    }
+
+    .right {
+
+        gap: 24px;
+    }
+
+    .real_wrapper {
+        justify-content: flex-end;
+        height: 137px;
+        width: 100%;
+        // background-image: url("../../img/block_four/qm.svg");
+        // background-repeat: no-repeat;
+        background-position: 20px 0;
+        // background-size: 142px 116px;
+    }
+
+    .real {
+
+        margin: 0;
+    }
+
+    .airbnb,
+    .hubspot {}
+
+    .strapi {}
+
+    .real>div :nth-child(1) {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 45px;
+    }
+
+    .real>div :nth-child(2) {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .block_four_wrapper {
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        height: 892px;
+        background: #D5FAFC;
+        position: relative;
+        padding: 0;
+    }
+
+    .container_block_four {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        height: 892px;
+        gap: 0;
+        position: relative;
+    }
+
+    .left {
+
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+        justify-content: center;
+        align-items: flex-start;
+        height: 446px;
+        position: relative;
+        background-image: url("../../img/block_four/qm.svg");
+        background-repeat: no-repeat;
+        background-position: 0 65px;
+        background-size: 142px 116px;
+
+
+    }
+
+    .right {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        margin-top: 0%;
+        gap: 32px;
+        height: 446px;
+        width: 90%;
+        z-index: 0;
+        position: relative;
+    }
+
+    .hubspot,
+    .strapi {
+        width: 320px;
+    }
+
+    .strapi {
+        position: relative;
+        bottom: 90px;
+
+    }
+
+    .hubspot {
+        position: relative;
+        bottom: 156px;
+    }
+
+    .airbnb {
+        width: 422px;
+        position: relative;
+        top: 196px;
+
+    }
+
+    .real_wrapper {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        position: relative;
+        top: 64px;
+        width: 488px;
+        height: 212px;
+        background-image: none;
+
+
+    }
+
+    .real {
+        width: 488px;
+        height: 156px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    .real>div :nth-child(1) {
+        height: 120px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .real>div :nth-child(2) {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .chort_nogy_zlamae {
+        background: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 32px;
+        gap: 32px;
+        box-shadow: 0px 4px 8px -2px rgba(17, 24, 39, 0.1), 0px 2px 4px -2px rgba(17, 24, 39, 0.06);
+        border-radius: 8px;
+    }
+
+    .chort_nogy_zlamae :nth-child(2) {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    .chort_nogy_zlamae :nth-child(2) :nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        font-feature-settings: 'liga' off;
+    }
+
+    .chort_nogy_zlamae :nth-child(2) :nth-child(2) :nth-child(2) {
+        gap: 0;
+    }
+
+    .chort_nogy_zlamae :nth-child(2) :nth-child(2) :nth-child(2) :nth-child(1) {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .chort_nogy_zlamae :nth-child(2) :nth-child(2) :nth-child(2) :nth-child(2) {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        font-feature-settings: 'liga' off;
+        color: #6B7280;
+    }
+}

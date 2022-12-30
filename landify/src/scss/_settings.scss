@@ -1,0 +1,52 @@
+.body {
+    font-family: 'Inter', sans-serif;
+}
+.wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../../img/poloska/lb1.svg), url(../../img/poloska/lb2.svg), url(../../img/poloska/rb1.svg), url(../../img/poloska/rb2.svg), url(../../img/poloska/rb3.svg), linear-gradient(35deg, rgb(255, 255, 255), 90%, #C4B5FD);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: left 800px, left 905px, right 577px, right 658px, right 700px, center;
+
+   
+}
+
+@media screen and (min-width: 768px) {
+    .wrapper {
+        background-image: url(../../img/poloska/2/lb1.svg), url(../../img/poloska/2/lb2.svg), url(../../img/poloska/2/rb1.svg), url(../../img/poloska/2/rb2.svg), url(../../img/poloska/2/rb3.svg), linear-gradient(35deg, rgb(255, 254, 254), 90%, #C4B5FD);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: left 800px, left 905px, right 577px, right 658px, right 700px, center;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .wrapper {
+        background-image: url(../../img/poloska/3/lb1.svg), url(../../img/poloska/3/lb2.svg), url(../../img/poloska/3/rb1.svg), url(../../img/poloska/3/rb2.svg), url(../../img/poloska/3/rb3.svg), linear-gradient(35deg, rgb(255, 254, 254), 90%, #C4B5FD);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: left 675px, left 755px, right 477px, right 541px, right 574px, center;
+    }
+}
+
+.container {
+    width: 100%;
+    max-width: var(--container-1440);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main {
+    width: 90%;
+    max-width: var(--container-1216);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

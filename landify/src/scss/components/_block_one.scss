@@ -1,0 +1,217 @@
+.block_one {
+    width: 100%;
+    height: 1146px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.text_btn_mobile_block_one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 1146px;
+    width: 100%;
+    gap: 40px;
+
+}
+
+.text_btn_stripe_block_one {
+    height: 386px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.text_block_one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.text_block_one> :nth-child(1) {
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: var(--neutral-900);
+}
+
+.text_small_block_one {
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--text-small-block-two);
+}
+
+.btn_block_one {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.get_started {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 138px;
+    height: 56px;
+    color: #fff;
+    background: var(--btn-color);
+    border: none;
+    border-radius: 8px;
+}
+
+.get_started>a {
+    text-decoration: none;
+    padding: 15px 24px;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+}
+
+.watch_video {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 179px;
+    height: 56px;
+    gap: 8px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.arrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    gap: 8px;
+}
+
+.watch_video>a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: var(--btn-color);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    padding: 0 0;
+    border-radius: 12px;
+}
+
+.iphone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 335px;
+    height: 640px;
+}
+
+.iphone>img {
+    position: relative;
+    top: 25px;
+    z-index: 2;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .block_one {
+        max-width: var(--container-1216);
+        align-items: center;
+    }
+
+    .text_btn_mobile_block_one {
+        width: 100%;
+        max-width: var(--container-1216);
+        height: 1160px;
+        gap: 0;
+        width: 100%;
+    }
+
+    .text_btn_stripe_block_one {
+        height: 440px;
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .text_block_one {}
+
+    .text_block_one> :nth-child(1) {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .btn_block_one {
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+
+
+    .block_one {
+        height: 786px;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .text_btn_mobile_block_one {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 116px;
+        height: 640px;
+        margin: 5% 0;
+    }
+
+    .text_btn_stripe_block_one {
+        height: 100%;
+        max-width: 648px;
+    }
+
+    .text_block_one> :nth-child(1) {
+        font-size: 60px;
+        line-height: 72px;
+    }
+
+}
+

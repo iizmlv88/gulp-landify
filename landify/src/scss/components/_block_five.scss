@@ -1,0 +1,222 @@
+.bfive {
+    width: 90%;
+    max-width: var(--container-1216);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 48px;
+    height: 560px;
+}
+
+.years {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #111827;
+    width: 100%;
+}
+
+.years :nth-child(2) {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #111827;
+}
+
+.fourobjects {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+
+.bf_row {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 50%;
+}
+
+.bf_row>div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    justify-content: flex-start;
+}
+
+.bf_row>div :nth-child(2)>div {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--text-big-block-two);
+}
+
+.bf_row>div :nth-child(2)>span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--text-big-block-two);
+}
+
+.bf_row>div>div>img {
+    width: 48px;
+    height: 48px;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .bfive {
+        height: 475px;
+        width: 90%;
+    }
+
+    .bf_row {
+        flex-direction: row;
+    }
+
+    .years :nth-child(1) {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 45px;
+    }
+
+    .years :nth-child(2) {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .fourobjects {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .bf_row {
+        display: flex;
+        gap: 32px;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .bf_row>div :nth-child(2)>div {
+        font-size: 36px;
+    }
+
+    .bf_row>div :nth-child(2)>span {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+
+    .bfive {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 32px;
+        height: 338px;
+    }
+
+    .years {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 60px;
+        width: 50%;
+    }
+
+    .years :nth-child(1) {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .years :nth-child(2) {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        font-feature-settings: 'liga' off;
+    }
+
+    .fourobjects {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .bf_row {
+        display: flex;
+        gap: 32px;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .bf_row>div {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 16px;
+        justify-content: flex-start;
+    }
+
+    .bf_row>div :nth-child(2)>div {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 45px;
+        letter-spacing: -0.025em;
+        font-feature-settings: 'liga' off;
+    }
+
+    .bf_row>div :nth-child(2)>span {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

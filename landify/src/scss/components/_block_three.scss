@@ -1,0 +1,238 @@
+.block_three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 1602px;
+    gap: 48px;
+}
+
+.tailor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.six_components {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+
+.first_line,
+.second_line {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.header_six {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: var(--text-big-block-two);
+}
+
+.item>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.item>div>span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--text-small-block-two);
+    text-align: center;
+}
+
+
+.tailor_big {
+    color: var(--text-big-block-two);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.lorem {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--text-big-block-two);
+
+}
+
+
+@media screen and (min-width: 768px) {
+    .block_three {
+        height: 965px;
+    }
+
+    .tailor {
+        width: var(--container-688);
+    }
+
+    .six_components {
+
+        width: 100%;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .block_four_wrapper {
+        height: 1165px;
+    }
+
+    .container_block_four {
+        width: var(--container-688);
+    }
+
+    .left {
+        gap: 40px;
+    }
+
+    .right {
+        margin: 0;
+        gap: 24px;
+    }
+
+    .real_wrapper {
+        height: 137px;
+        width: 728px;
+        background-image: url(./assets/svg/blockfo/qm.svg);
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        background-size: 142px 116px;
+    }
+
+    .real {
+        width: var(--container-688);
+        margin: 0;
+    }
+
+    .airbnb,
+    .hubspot {
+        width: 624px;
+
+    }
+
+    .strapi {
+        width: 624px;
+    }
+
+    .real>div :nth-child(1) {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 45px;
+    }
+
+    .real>div :nth-child(2) {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .bfive {
+        height: 475px;
+    }
+
+    .bf_row {
+        flex-direction: row;
+    }
+
+    .years :nth-child(1) {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 45px;
+    }
+
+    .years :nth-child(2) {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .item {
+        width: 303px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .block_three {
+        width: var(--container-1216);
+        height: 748px;
+        gap: 64px;
+    }
+
+    .tailor {
+        width: 65%;
+    }
+
+    .six_components {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 64px;
+    }
+
+    .first_line,
+    .second_line {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 32px;
+    }
+
+    .header_six {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .item>span {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: var(--text-small-block-two);
+        text-align: center;
+    }
+
+    .tailor_big {
+        font-size: 48px;
+        line-height: 60px;
+    }
+}

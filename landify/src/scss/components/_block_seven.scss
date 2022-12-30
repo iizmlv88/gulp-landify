@@ -1,0 +1,277 @@
+.wrapper_seven {
+    height: 1196px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #1DB5BE;
+
+
+
+}
+
+
+
+
+.countainer_seven {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    max-width: var(--container-1440);
+}
+
+.blckseven {
+    width: 90%;
+    max-width: 1216px;
+    height: 1196px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 32px;
+}
+
+.blckseven_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 48px;
+
+}
+
+.manage {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.manage>div {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: var(--text-big-block-two);
+}
+
+.manage>span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--text-big-block-two);
+}
+
+.get {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+    gap: 8px;
+}
+
+.get>div {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #111827;
+}
+
+.get_line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.app_badges_two {
+    display: flex;
+    gap: 12px;
+}
+
+.two_mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 808px;
+    justify-content: space-between;
+
+}
+
+.left_mobile {
+    width: 232px;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.right_mobile {
+    width: 232px;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+@media screen and (min-width: 768px) {
+    .wrapper_seven {
+        height: 919px;
+    }
+
+    .blckseven {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        width: 90%;
+        height: 100%;
+        gap: 48px;
+
+    }
+
+    .blckseven_left {
+        align-items: flex-start;
+        width: 100%;
+
+    }
+
+    .manage>div {
+        font-size: 36px;
+        line-height: 45px;
+    }
+
+    .manage>span {
+        font-size: 18px;
+        line-height: 28px;
+        color: #111827;
+    }
+
+    .get {
+        justify-content: flex-start;
+        align-items: flex-start;
+
+    }
+
+    .two_mobile {
+        width: var(--container-688);
+        height: 558px;
+        display: flex;
+        flex-direction: row;
+        gap: 128px;
+        justify-content: space-around;
+    }
+
+    .left_mobile {
+        height: 558px;
+    }
+
+    .right_mobile {
+        height: 558px;
+    }
+
+    .manage>div {
+        font-size: 36px;
+        line-height: 45px;
+    }
+
+    .manage>span {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .wrapper_seven {
+        height: 558px;
+
+    }
+
+
+    .blckseven {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .blckseven_left {
+        height: 336px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 48px;
+    }
+
+    .manage {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .manage>div {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .manage>span {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        font-feature-settings: 'liga' off;
+        color: #111827;
+    }
+
+    .get {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 8px;
+    }
+
+    .get>div {
+        justify-content: flex-start;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        font-feature-settings: 'liga' off;
+    }
+
+    .get_line {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .two_mobile {
+        display: flex;
+        height: 558px;
+        width: 592px;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+    }
+}

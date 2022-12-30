@@ -1,0 +1,119 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #000000;
+}
+
+.countainer_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: var(--container-1440);
+    height: 448px;
+}
+
+.eight_left :nth-child(3) {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.eight_line {
+    width: 90%;
+    max-width: var(--container-1216);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #fff;
+    gap: 32px;
+}
+
+.eight_left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+    color: #fff;
+}
+
+.eight_left :nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.eight_left :nth-child(2) :nth-child(1) {
+    display: flex;
+    gap: 12px;
+}
+
+.eight_left :nth-child(2) :nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.eight_left :nth-child(2) :nth-child(2) {
+    display: flex;
+    gap: 12px;
+}
+
+.eight_left :nth-child(2) :nth-child(2) :nth-child(1) {
+    gap: 12px;
+}
+
+.eight_left :nth-child(2) :nth-child(2) :nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.eight_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+@media screen and (min-width: 768px) {
+    .countainer_footer {
+        width: 100%;
+        height: 288px;
+    }
+
+    .eight_line {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .eight_left :nth-child(2) :nth-child(2) {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}

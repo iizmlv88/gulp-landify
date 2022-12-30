@@ -1,0 +1,126 @@
+.header {
+  display: flex;
+  width: 90%;
+  max-width: var(--container-1216);
+  height: 72px;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo_nav {
+  color: var(--neutral-900);
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  color: var(--neutral-900);
+  display: none;
+}
+
+.nav>ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+
+.nav>ul>li>a {
+  text-decoration: none;
+  color: var(--neutral-900);
+}
+
+.menu_icon {
+  display: flex;
+  align-items: center;
+}
+
+.app_badges {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.menu_icon_line {
+  display: none;
+}
+
+.company {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 135px;
+  height: 40px;
+  background-color: #000000;
+  border: 1px solid silver;
+  border-radius: 5px;
+}
+
+.company>a {
+  gap: 7px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 9px;
+  border-radius: 5px;
+}
+
+.company>a>div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.apple>a {
+  padding: 7px 17px;
+}
+
+.cm>div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app_badges {
+  display: none;
+}
+
+.menu_icon_line {
+  display: contents;
+}
+
+@media screen and (min-width: 768px) {
+
+  .header {
+    height: 80px;
+  }
+
+  .menu_icon {
+    gap: 16px;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .app_badges {
+    display: contents;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+  .header {}
+
+  .menu_icon_line {
+    display: none;
+  }
+
+  .nav {
+    display: contents;
+  }
+}

@@ -1,0 +1,211 @@
+.blcksix {
+    width: 90%;
+    max-width: var(--container-1216);
+    height: 441px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.easy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    width: 100%;
+    height: 176px;
+}
+
+.easy :nth-child(1) {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: var(--text-big-block-two);
+}
+
+.easy :nth-child(2) {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--text-big-block-two);
+}
+
+.ring {
+    width: 100%;
+    height: 168px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.ring_box {
+    width: 335px;
+    height: 168px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 38px;
+    background-image: url(../../img/block_six/vector.png);
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    background-size: 335px 168px;
+
+}
+
+.ring_box :nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 39px;
+}
+
+.ring_box :nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 39px;
+}
+
+.logo_small_adapt {
+    width: 39px;
+    height: 39px;
+}
+@media screen and (min-width: 768px) {
+    .blcksix {
+        height: 383px;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .easy {
+        height: 222px;
+        width: 50%;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .easy :nth-child(1) {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 45px;
+    }
+
+    .easy :nth-child(2) {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .ring {
+        width: 50%;
+        min-width: 335px;
+        height: 164px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .ring_box {
+        gap: 39px;
+    }
+
+
+}
+
+@media screen and (min-width: 1200px) {
+    .blcksix {
+        width: 90%;
+        height: 431px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 32px;
+
+    }
+
+    .easy {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        width: 488px;
+        height: 264px;
+    }
+
+    .easy :nth-child(1) {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 60px;
+        color: #111827;
+    }
+
+    .easy :nth-child(2) {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #111827;
+    }
+
+    .ring {
+        width: 696px;
+        height: 264px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ring_box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 64px;
+        width: 540px;
+        height: 270px;
+        background-position: top;
+        background-size: 540px 270px;
+    }
+
+    .ring_box :nth-child(1) {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 64px;
+    }
+
+    .ring_box :nth-child(2) {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 64px;
+    }
+
+    .logo_small_adapt {
+        width: 64px;
+        height: 64px;
+    }
+}
